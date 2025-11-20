@@ -1,0 +1,79 @@
+/* Full Page Background */
+body {
+  background-color: #bdb7e2;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;       /* centers the whole content */
+}
+
+/* Page Container */
+.container {
+  width: 100%;
+  max-width: 1100px;             /* fits screen perfectly */
+  padding: 20px;
+  text-align: center;            /* center headings, search, sort */
+}
+
+/* Search + Sort Inputs */
+.search, 
+.sort {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+/* Product Grid - centered */
+.grid {
+  display: flex;
+  justify-content: center;       /* center all cards */
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Product Card */
+.card {
+  width: 230px;
+  padding: 12px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* Button */
+.card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #cf8026;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card button:hover {
+  background: #b86f1f;
+}
